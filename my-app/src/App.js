@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./index.css";
 import Cities from "./Cities";
 import Form from "./Form";
 import CurrentCity from "./CurrentCity";
