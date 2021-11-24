@@ -1,11 +1,11 @@
 import "./index.css";
 import Cities from "./Cities";
 import CurrentCity from "./CurrentCity";
-import CurrentTemp from "./CurrentTemp";
+import WeatherTemperature from "./Weathertemperature.js.js";
 import Crypto from "./Crypto";
 import Footer from "./Footer";
 import Weather from "./Weather";
-import WeatherInfo from "./Weatherinfo";
+import WeatherInfo from "./WeatherInfo";
 
 export default function App() {
 	return (
@@ -15,7 +15,7 @@ export default function App() {
 				<Weather defaultCity="New York" />
 				<WeatherInfo />
 				<CurrentCity />
-				<CurrentTemp />
+				<WeatherTemperature />
 				<Crypto />
 				<Footer />
 			</div>

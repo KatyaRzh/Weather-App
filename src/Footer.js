@@ -5,7 +5,7 @@ export default function Footer() {
 		<div className="footer">
 			<small>
 				<a href="https://github.com/KatyaRzh/My-Weather-App">
-					Open-source code
+					Open-source code{" "}
 				</a>
 				by Katya Rozhko
 			</small>
