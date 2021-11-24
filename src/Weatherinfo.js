@@ -1,44 +1,39 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
-	return props.loaded ? (
+	return (
 		<div className="WeatherInfo">
-			<div>
-				<h1>{props.weatherData.city}</h1>
+			<h1>{props.data.city}</h1>
+			<ul>
+				<li>
+					<FormattedDate date={props.data.date} />
+				</li>
+				<li className="text-capitalize">{props.data.description}</li>
+			</ul>
+			<div className="row mt-3">
+				<div className="col-6">
+					<div className="clearfix">
+						<div className="float-left">
+							<WeatherIcon code={props.data.icon} size={52} />
+						</div>
 
-				<ul className="weather-details">
-					<li>
-						<FormattedDate date={props.weatherData.date} />
-					</li>
-					<li className="text-capitalize">
-						{props.weatherData.description}
-					</li>
-				</ul>
-				<div className="row mt-3">
-					<div className="col-6">
-						<div className="clearfix">
-							<img
-								src={props.Data.iconUrl}
-								alt={props.data.description}
-								className="float-left"
+						<div className="float-left">
+							<WeatherTemperature
+								celsius={props.data.temperature}
 							/>
-							<div className="float-left">
-								<span className="temperature">
-									{Math.round(props.weatherData.temperature)}
-								</span>
-								<span className="unit">C</span>
-							</div>
 						</div>
 					</div>
-					<div className="col-6">
-						<ul>
-							<li>Humidity: 40%</li>
-							<li>Wind: 0.45 km/h</li>
-						</ul>
-					</div>
+				</div>
+				<div className="col-6">
+					<ul>
+						<li>Humidity: {props.data.humidity}%</li>
+						<li>Wind: {props.data.wind} km/h</li>
+					</ul>
 				</div>
 			</div>
 		</div>
-	) : null;
+	);
 }
