@@ -177,3 +177,7 @@ hr {
 a {
 	text-decoration: none;
 }
+
+.crypto li {
+	list-style-type: none;
+}
