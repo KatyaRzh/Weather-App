@@ -115,6 +115,7 @@ input {
 .weather-details-div {
 	display: flex;
 	align-items: center;
+	list-style-type: none;
 }
 
 .sun {
@@ -180,4 +181,11 @@ a {
 
 .crypto li {
 	list-style-type: none;
+}
+
+.weather-details li {
+	list-style-type: none;
+	padding-top: 2rem;
+	padding-bottom: 0rem;
+	color: black;
 }
