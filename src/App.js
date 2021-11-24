@@ -8,13 +8,15 @@ import Weather from "./Weather";
 
 export default function App() {
 	return (
-		<div className="App">
-			<Cities />
-			<Weather />
-			<CurrentCity />
-			<CurrentTemp />
-			<Crypto />
-			<Footer />
+		<div class="container">
+			<div className="App">
+				<Cities />
+				<Weather />
+				<CurrentCity />
+				<CurrentTemp />
+				<Crypto />
+				<Footer />
+			</div>
 		</div>
 	);
 }

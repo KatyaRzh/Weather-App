@@ -7,7 +7,12 @@
 }
 .container {
 	font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
-	background: #fff;
+	background: radial-gradient(
+		circle at 10% 20%,
+		rgba(216, 75, 212, 0.4) 30.2%,
+		rgba(100, 231, 204, 0.73) 62%,
+		rgba(100, 231, 204, 0.73) 83.4%
+	);
 	border-radius: 16px;
 	box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
 	padding: 40px;
@@ -17,12 +22,7 @@
 
 body {
 	font-family: Google Sans, Roboto, arial, sans-serif !important;
-	background: radial-gradient(
-		circle at 10% 20%,
-		rgba(216, 75, 212, 0.4) 30.2%,
-		rgba(100, 231, 204, 0.73) 62%,
-		rgba(100, 231, 204, 0.73) 83.4%
-	);
+	background: whitesmoke;
 	height: 100vh;
 }
 h1 {
@@ -188,4 +188,5 @@ a {
 	padding-top: 2rem;
 	padding-bottom: 0rem;
 	color: black;
+	line-height: 0rem;
 }

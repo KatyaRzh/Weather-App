@@ -10,9 +10,8 @@ export default function Crypto() {
 				</span>
 			</h1>
 			<ul class="crypto">
-				<li>BTC - $45,038.60 USD</li>
-				<li>ETH - $3,227.29 USD</li>
-				<li>DOGE - $0.239828 USD</li>
+				<li>BTC - $56,466.40 USD</li>
+				<li>ETH - $4,259.29 USD</li>
 			</ul>
 		</div>
 	);
