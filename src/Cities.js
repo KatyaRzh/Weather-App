@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Cities() {
 	return (
-		<div class="overview">
+		<div className="overview">
 			<h1 id="searching-for-city">Weather Today</h1>
 
-			<ul class="menu">
+			<ul className="menu">
 				<li>San Francisco</li>
 				<li>Cupertino</li>
 				<li>Mexico City</li>

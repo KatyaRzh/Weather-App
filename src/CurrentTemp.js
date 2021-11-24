@@ -3,19 +3,19 @@ import React from "react";
 export default function CurrentTemp() {
 	return (
 		<div>
-			<div class="row">
-				<div class="col-6">
-					<div class="clearfix weather-temperature">
+			<div className="row">
+				<div className="col-6">
+					<div className="clearfix weather-temperature">
 						<img
 							src="http://openweathermap.org/img/wn/01d@2x.png"
 							alt="sunny"
 							width="100px;"
 							id="icon"
-							class="float-left"
+							className="float-left"
 						/>
 
 						<strong id="change-temp">71</strong>
-						<span class="units">
+						<span className="units">
 							<a href="www.weather.com" id="celsius-link">
 								°C
 							</a>{" "}
@@ -23,7 +23,7 @@ export default function CurrentTemp() {
 							<a
 								href="www.weather.com"
 								id="fahrenheit-link"
-								class="active"
+								className="active"
 							>
 								°F
 							</a>

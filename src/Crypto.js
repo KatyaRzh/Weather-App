@@ -9,7 +9,7 @@ export default function Crypto() {
 					📈
 				</span>
 			</h1>
-			<ul class="crypto">
+			<ul className="crypto">
 				<li>BTC - $56,466.40 USD</li>
 				<li>ETH - $4,259.29 USD</li>
 			</ul>
