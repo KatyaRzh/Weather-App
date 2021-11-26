@@ -3,7 +3,7 @@ import React from "react";
 export default function Crypto() {
 	return (
 		<div>
-			<h1>
+			<h1 className="m-4">
 				Cryptocurrency
 				<span role="img" aria-label="emoji">
 					📈
