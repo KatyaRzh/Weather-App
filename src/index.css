@@ -190,3 +190,19 @@ a {
 	color: black;
 	line-height: 0rem;
 }
+
+.humidity-wind {
+	list-style-type: none;
+	display: block;
+}
+
+.date {
+	list-style-type: none;
+}
+
+.clearfix {
+	text-align: left;
+	margin-left: 3.5rem;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+}
